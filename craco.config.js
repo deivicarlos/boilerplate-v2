@@ -1,3 +1,5 @@
+const TEST_REGEX = '.*/__tests__/.*\\.test\\.tsx?$';
+
 module.exports = {
   eslint: {},
   jest: {

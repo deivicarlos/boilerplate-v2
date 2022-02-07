@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="text-center"
+  >
+    <header
+      class="min-h-screen flex flex-col items-center justify-center text-3xl"
+    >
+      <img
+        alt="logo"
+        class="animate-[bounce_infinite_3s_ease-in-out] h-52"
+        src="logo.svg"
+      />
+      <div>
+        <div
+          class="row"
+        >
+          <button
+            aria-label="Decrement value"
+            class="button"
+            type="button"
+          >
+            -
+          </button>
+          <span
+            class="value"
+          >
+            0
+          </span>
+          <button
+            aria-label="Increment value"
+            class="button"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <p
+        class="mt-4"
+      >
+        Edit 
+        <code>
+          src/App.tsx
+        </code>
+         and save to reload.
+      </p>
+      <span>
+        <a
+          href="https://reactjs.org/"
+          rel="noopener noreferrer"
+          style="color: rgb(112, 76, 182);"
+          target="_blank"
+        >
+          React
+        </a>
+        <span>
+          , 
+        </span>
+        <a
+          href="https://redux.js.org/"
+          rel="noopener noreferrer"
+          style="color: rgb(112, 76, 182);"
+          target="_blank"
+        >
+          Redux
+        </a>
+        <span>
+          , 
+        </span>
+        <a
+          href="https://redux-toolkit.js.org/"
+          rel="noopener noreferrer"
+          style="color: rgb(112, 76, 182);"
+          target="_blank"
+        >
+          Redux Toolkit
+        </a>
+        ,
+        <span>
+           and 
+        </span>
+        <a
+          href="https://react-redux.js.org/"
+          rel="noopener noreferrer"
+          style="color: rgb(112, 76, 182);"
+          target="_blank"
+        >
+          React Redux
+        </a>
+      </span>
+    </header>
+  </div>
+</DocumentFragment>
+`;

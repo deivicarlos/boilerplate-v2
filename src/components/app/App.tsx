@@ -1,20 +1,27 @@
+import { CSSProperties } from 'react';
 import logo from './logo.svg';
-import { Counter } from '../components/counter/Counter';
-import './App.css';
+import Counter from '../counter/Counter';
 
-function App() {
+const appLink: CSSProperties = {
+  color: `rgb(112, 76, 182)`,
+};
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="text-center">
+      <header className="min-h-screen flex flex-col items-center justify-center text-3xl">
+        <img
+          src={logo}
+          className="animate-[bounce_infinite_3s_ease-in-out] h-52"
+          alt="logo"
+        />
         <Counter />
-        <p>
+        <p className="mt-4">
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <span>
-          <span>Learn </span>
           <a
-            className="App-link"
+            style={appLink}
             href="https://reactjs.org/"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,7 +30,7 @@ function App() {
           </a>
           <span>, </span>
           <a
-            className="App-link"
+            style={appLink}
             href="https://redux.js.org/"
             target="_blank"
             rel="noopener noreferrer"
@@ -32,7 +39,7 @@ function App() {
           </a>
           <span>, </span>
           <a
-            className="App-link"
+            style={appLink}
             href="https://redux-toolkit.js.org/"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,7 +48,7 @@ function App() {
           </a>
           ,<span> and </span>
           <a
-            className="App-link"
+            style={appLink}
             href="https://react-redux.js.org/"
             target="_blank"
             rel="noopener noreferrer"
@@ -52,6 +59,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
