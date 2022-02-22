@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import './index.css';
-import App from './app/App';
+import App from './components/app/App';
 import GradientText from './components/gradient-text/GradientText';
 import { store } from './store/store';
 import * as serviceWorker from './serviceWorker';
